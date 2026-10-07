@@ -1,0 +1,83 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Segoe UI", Arial, sans-serif;
+	min-height: 100vh;
+    background-color: bisque;
+	/* background: linear-gradient(135deg, hsl(220, 70%, 20%), hsl(280, 60%, 30%)); */
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+	padding: 24px 32px;
+	color: white;
+	background: rgba(0, 0, 0, 0.35);
+	text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+	gap: 16px;
+	margin-top: 12px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+}
+
+#table {
+    padding-top: 2rem;
+    text-align: center;
+}
+
+#table h2 {
+    color: white;
+	background-color: rgba(0, 0, 0, 0.35);
+}
+
+.league-table {
+	margin: 32px auto;
+	background: white;
+	border-collapse: collapse;
+	border-radius: 16px;
+	overflow: hidden;
+}
+
+.league-table th,
+.league-table td {
+	padding: 12px 16px;
+}
+
+#matches {
+    position: relative;
+    top: 2rem;
+    text-align: center;
+}
+
+#matches h2,
+#matches h4 {
+    color: white;
+	background-color: rgba(0, 0, 0, 0.35);
+}
+
+#matches img {
+    border-radius: 10px;
+}
+
+footer {
+    position: relative;
+    top: 5rem;
+    background-color: rgba(0, 0, 0, 0.35);
+    color: white;
+    text-align: center;
+    padding: 12px;
+    clear: both;
+}
