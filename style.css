@@ -40,11 +40,11 @@ nav a {
 	border:none;
 }
 
-nav a:focus,
+/*nav a:focus,
 nav a:hover { 
 	background:#0056b3;
 	 outline:none; 
-}
+}*/
 
 #table {
     padding-top: 2rem;
